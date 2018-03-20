@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    tools:context="com.example.android.tourguide.MainActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            style="@style/image"
+            android:src="@drawable/gateway_of_india"
+            android:id="@+id/mumbai"/>
+
+        <RelativeLayout
+            style="@style/layout">
+
+            <TextView
+                style="@style/text"
+                android:text="@string/place1"
+                android:id="@+id/mumbai_text"/>
+
+        </RelativeLayout>
+
+        <ImageView
+            style="@style/image"
+            android:layout_below="@id/mumbai"
+            android:src="@drawable/goa_tourism"
+            android:id="@+id/goa"/>
+
+        <RelativeLayout
+            style="@style/layout"
+            android:layout_below="@id/mumbai">
+
+            <TextView
+                style="@style/text"
+                android:text="@string/place2"
+                android:id="@+id/goa_text"/>
+
+        </RelativeLayout>
+
+        <ImageView
+            style="@style/image"
+            android:src="@drawable/india_gate_delhi"
+            android:id="@+id/delhi"
+            android:layout_below="@id/goa"/>
+
+        <RelativeLayout
+            style="@style/layout"
+            android:layout_below="@id/goa">
+
+            <TextView
+                style="@style/text"
+                android:text="@string/place3"
+                android:id="@+id/delhi_text"/>
+
+        </RelativeLayout>
+
+        <ImageView
+            style="@style/image"
+            android:src="@drawable/victoria"
+            android:id="@+id/kolkata"
+            android:layout_below="@id/delhi"/>
+
+        <RelativeLayout
+            style="@style/layout"
+            android:layout_below="@id/delhi">
+
+            <TextView
+                style="@style/text"
+                android:text="@string/place4"
+                android:id="@+id/kolkata_text"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+</ScrollView>

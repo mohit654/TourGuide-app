@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Tour Guide</string>
+    <string name="place1">Mumbai</string>
+    <string name="place2">Goa</string>
+    <string name="place3">Delhi</string>
+    <string name="place4">Kolkata</string>
+</resources>
